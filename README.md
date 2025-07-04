@@ -1,4 +1,6 @@
 #🔥 Fire Detection Web App
+
+
 This is a Streamlit-powered web application that detects fire in images or webcam streams using a custom-trained Convolutional Neural Network (CNN) model built with PyTorch. The app helps in identifying fire hazards from visual input with high accuracy and real-time feedback.
 
 #🚀 Features
