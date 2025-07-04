@@ -23,7 +23,6 @@ Predict fire vs. normal scenes from:
 -Streamlit 🌐
 -Torchvision & PIL for transforms
 -Scikit-learn (for train-test split)
-
 ## 📷 Screenshots
 
 ### 🔥 Fire Detected from Uploaded Image
@@ -41,17 +40,16 @@ The model is trained using a custom CNN architecture on a public Fire vs. Normal
 ## Dataset used:
 🔥 Fire Dataset on Kaggle
 
-## Classes
- -fire
- -normal
- -Images are resized to 224x224 and normalized before training. The model is saved as fire_cnn.pth.
-
+## Classes:
+- Fire
+- Normal
+- Images are resized to 224x224 and normalized before training. The model is saved as fire_cnn.pth.
 ## CNN Model Architecture
 -Conv2D (3 → 16) + ReLU → MaxPool
 -Conv2D (16 → 32) + ReLU → MaxPool
 -Conv2D (32 → 64) + ReLU → MaxPool
 -Flatten → FC(64×28×28 → 128) → ReLU → FC(128 → 2)
-  - Optimizer: Adam
-  -Loss Function: CrossEntropyLoss
-  -Epochs: 10
-  -Accuracy achieved: ~92% (Validation)
+- Optimizer: Adam
+- Loss Function: CrossEntropyLoss
+- Epochs: 10
+- Accuracy achieved: ~92% (Validation)
