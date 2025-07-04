@@ -16,13 +16,14 @@ Predict fire vs. normal scenes from:
 - Use your system's webcam (via Streamlit).
 - Each frame is passed through the trained CNN for prediction.
 
-## Tech Stack
--Python 🐍
--PyTorch ⚡
--OpenCV 🎥
--Streamlit 🌐
--Torchvision & PIL for transforms
--Scikit-learn (for train-test split)
+## The project uses the following technologies:
+
+* Python
+* PyTorch
+* OpenCV
+* Streamlit
+* Torchvision and PIL for transforms
+* Scikit-learn (for train-test split)
 ## 📷 Screenshots
 
 ### 🔥 Fire Detected from Uploaded Image
@@ -44,11 +45,12 @@ The model is trained using a custom CNN architecture on a public Fire vs. Normal
 - Fire
 - Normal
 - Images are resized to 224x224 and normalized before training. The model is saved as fire_cnn.pth.
-## CNN Model Architecture
--Conv2D (3 → 16) + ReLU → MaxPool
--Conv2D (16 → 32) + ReLU → MaxPool
--Conv2D (32 → 64) + ReLU → MaxPool
--Flatten → FC(64×28×28 → 128) → ReLU → FC(128 → 2)
+## CNN Architecture
+  The convolutional neural network (CNN) model uses four convolutional layers (Conv2D), each followed by ReLU activation and max pooling:
+- Conv2D (3 → 16) + ReLU → MaxPool
+- Conv2D (16 → 32) + ReLU → MaxPool
+- Conv2D (32 → 64) + ReLU → MaxPool
+- Flatten → FC(64×28×28 → 128) → ReLU → FC(128 → 2)
 - Optimizer: Adam
 - Loss Function: CrossEntropyLoss
 - Epochs: 10
