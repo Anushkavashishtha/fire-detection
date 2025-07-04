@@ -11,12 +11,12 @@ Predict fire vs. normal scenes from:
 - Intuitive Streamlit UI
 - OpenCV integration for frame capture and display
 - Real-time predictions with visual alerts
-## Input Scores
--Upload .jpg, .jpeg, or .png image files
--Use your system’s webcam (via Streamlit)
--Each frame is passed through the trained CNN for prediction
+ ## Input Scores
+- Upload .jpg, .jpeg, or .png image files.
+- Use your system's webcam (via Streamlit).
+- Each frame is passed through the trained CNN for prediction.
 
-## Tech stack
+## Tech Stack
 -Python 🐍
 -PyTorch ⚡
 -OpenCV 🎥
