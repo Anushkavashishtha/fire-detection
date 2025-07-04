@@ -41,17 +41,21 @@ Scikit-learn (for train-test split)
 
 
 #🧠 Model Training
+## Model Treaining
 The model is trained using a custom CNN architecture on a public Fire vs. Normal image dataset from Kaggle.
 
 #🔍 Dataset Used:
+## Dataset used:
 🔥 Fire Dataset on Kaggle
 
 #Classes:
+## Classes
 fire
 normal
 Images are resized to 224x224 and normalized before training. The model is saved as fire_cnn.pth.
 
 #🔧 CNN Model Architecture
+## CNN Model Architecture
 text
 Copy
 Edit
