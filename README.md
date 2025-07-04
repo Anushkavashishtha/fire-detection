@@ -1,8 +1,7 @@
-#🔥 Fire Detection Web App
+
 ## Fire detection web app
 This is a Streamlit-powered web application that detects fire in images or webcam streams using a custom-trained Convolutional Neural Network (CNN) model built with PyTorch. The app helps in identifying fire hazards from visual input with high accuracy and real-time feedback.
 
-#🚀 Features
 ## Features
 Predict fire vs. normal scenes from:
 Uploaded images
@@ -12,13 +11,11 @@ Intuitive Streamlit UI
 OpenCV integration for frame capture and display
 Real-time predictions with visual alerts
 
-#📊 Input Sources
 ## Input Scores
 Upload .jpg, .jpeg, or .png image files
 Use your system’s webcam (via Streamlit)
 Each frame is passed through the trained CNN for prediction
 
-#🛠️ Tech Stack
 ## Tech stack
 Python 🐍
 PyTorch ⚡
@@ -27,7 +24,6 @@ Streamlit 🌐
 Torchvision & PIL for transforms
 Scikit-learn (for train-test split)
 
-#📷 Screenshots
 ## 📷 Screenshots
 
 ### 🔥 Fire Detected from Uploaded Image
@@ -39,26 +35,18 @@ Scikit-learn (for train-test split)
 ### 📹 Real-Time Webcam Detection
 ![Webcam Prediction](assests/image3.png)
 
-
-#🧠 Model Training
 ## Model Treaining
 The model is trained using a custom CNN architecture on a public Fire vs. Normal image dataset from Kaggle.
 
-#🔍 Dataset Used:
 ## Dataset used:
 🔥 Fire Dataset on Kaggle
 
-#Classes:
 ## Classes
-fire
-normal
-Images are resized to 224x224 and normalized before training. The model is saved as fire_cnn.pth.
+ fire
+ normal
+ Images are resized to 224x224 and normalized before training. The model is saved as fire_cnn.pth.
 
-#🔧 CNN Model Architecture
 ## CNN Model Architecture
-text
-Copy
-Edit
 Conv2D (3 → 16) + ReLU → MaxPool
 Conv2D (16 → 32) + ReLU → MaxPool
 Conv2D (32 → 64) + ReLU → MaxPool
