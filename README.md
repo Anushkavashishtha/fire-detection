@@ -3,14 +3,14 @@
 This is a Streamlit-powered web application that detects fire in images or webcam streams using a custom-trained Convolutional Neural Network (CNN) model built with PyTorch. The app helps in identifying fire hazards from visual input with high accuracy and real-time feedback.
 
 ## Features
--Predict fire vs. normal scenes from:
--Uploaded images
--Real-time webcam feed
--CNN-based image classification using PyTorch
--Intuitive Streamlit UI
--OpenCV integration for frame capture and display
--Real-time predictions with visual alerts
 
+Predict fire vs. normal scenes from:
+- Uploaded images
+- Real-time webcam feed
+- CNN-based image classification using PyTorch
+- Intuitive Streamlit UI
+- OpenCV integration for frame capture and display
+- Real-time predictions with visual alerts
 ## Input Scores
 -Upload .jpg, .jpeg, or .png image files
 -Use your system’s webcam (via Streamlit)
